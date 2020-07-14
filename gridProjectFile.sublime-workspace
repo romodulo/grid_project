@@ -1,0 +1,291 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"fle",
+				"flex-shrink\tproperty"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"search",
+				"search_query"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Awesome_Sauce/Desktop/Projects/grid_project"
+	],
+	"file_history":
+	[
+		"/C/Users/Awesome_Sauce/Desktop/Projects/web_project/temporarytext.txt",
+		"/C/Users/Awesome_Sauce/Desktop/Projects/web_project/index.html",
+		"/C/Users/Awesome_Sauce/Desktop/Projects/web_project/temporaryhtml2.html",
+		"/C/Users/Awesome_Sauce/Desktop/Projects/web_project/temporaryhtml.html",
+		"/C/Users/Awesome_Sauce/Desktop/Projects/web_project/temporarycss.css",
+		"/C/Users/Awesome_Sauce/Desktop/Projects/web_project/anothermain.html",
+		"/C/Users/Awesome_Sauce/Downloads/crash-course-CRM-Part-7-Database-Queries/crash-course-CRM-Part-7-Database-Queries/crm1_v7_database_queries/accounts/queryDemos.py",
+		"/C/Users/Awesome_Sauce/Desktop/Projects/web_project/newtext3.txt",
+		"/C/Users/Awesome_Sauce/Desktop/Projects/web_project/newtext2.txt",
+		"/C/Users/Awesome_Sauce/Desktop/Projects/web_project/notespersonaltext.txt",
+		"/C/Users/Awesome_Sauce/Desktop/Projects/web_project/style.css",
+		"/C/Users/Awesome_Sauce/Desktop/Projects/web_project/app.js",
+		"/C/Users/Awesome_Sauce/Desktop/Projects/web_project/styles.css",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Romel/testpython.py",
+		"/C/Users/Awesome_Sauce/Desktop/employment.txt",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Romel/testscriptpy.py",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Accounts/models.py",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Accounts/admin.py",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Accounts/urls.py",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Romel/urls.py",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Accounts/templates/accounts/main.html",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Accounts/templates/accounts/customer.html",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Accounts/templates/accounts/products.html",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Accounts/templates/accounts/navbartest.html",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Accounts/templates/accounts/navbar4.html",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Accounts/templates/accounts/navbar3.html",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Accounts/templates/accounts/navbar.html",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Procfile",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Romel/wsgi.py",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/runtime.txt",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Accounts/templates/accounts/challonge.html",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Accounts/templates/accounts/navbar2.html",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Accounts/views.py",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/static/css/main.css",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Romel/settings.py",
+		"/C/Users/Awesome_Sauce/Documents/Projects/Folder/Romel/Accounts/templates/accounts/dashboard.html",
+		"/C/Users/Awesome_Sauce/Projects/May_15_2020/css.css",
+		"/C/Users/Awesome_Sauce/Projects/May_15_2020/html.html",
+		"/C/Users/Awesome_Sauce/Desktop/complete.lua",
+		"/C/Users/Awesome_Sauce/Desktop/sevenscript.lua",
+		"/C/Users/Awesome_Sauce/Desktop/pythonpython.py",
+		"/C/Users/Awesome_Sauce/Desktop/chance.lua",
+		"/C/Users/Awesome_Sauce/Desktop/basebet 33 satoshi.txt",
+		"/C/Users/Awesome_Sauce/Projects/Javascript_Codecademy/indext.html",
+		"/C/Users/Awesome_Sauce/Projects/Javascript_Codecademy/test.html",
+		"/C/Users/Awesome_Sauce/Projects/Javascript_Codecademy/kelvin.js",
+		"/C/Users/Awesome_Sauce/Projects/Javascript_Codecademy/style2.css",
+		"/C/Users/Awesome_Sauce/Projects/Javascript_Codecademy/comments.js",
+		"/C/Users/Awesome_Sauce/Projects/Javascript_Codecademy/style.css",
+		"/C/Users/Awesome_Sauce/Projects/sentdex_tutorial_flask/templates/new.html",
+		"/C/Users/Awesome_Sauce/Projects/practice/flask-tutorial.py",
+		"/C/Users/Awesome_Sauce/Projects/practice/templates/templates/index.html",
+		"/C/Users/Awesome_Sauce/Projects/sentdex_tutorial_flask/flask-tutorial.py",
+		"/C/Users/Awesome_Sauce/Projects/practice/templates/base.html",
+		"/C/Users/Awesome_Sauce/Projects/practice/database_testing.py",
+		"/C/Users/Awesome_Sauce/Projects/practice/app2-final.py",
+		"/C/Users/Awesome_Sauce/Projects/practice/app2.py",
+		"/C/Users/Awesome_Sauce/Projects/practice/app.py",
+		"/C/Users/Awesome_Sauce/Projects/codecademy_practice/style.css",
+		"/C/Users/Awesome_Sauce/Projects/codecademy_practice/index.html",
+		"/C/Users/Awesome_Sauce/Projects/practice/README.md",
+		"/C/Users/Awesome_Sauce/Documents/practice.html",
+		"/C/Users/Awesome_Sauce/Documents/story.html",
+		"/C/Users/Awesome_Sauce/Documents/index.html",
+		"/C/Users/Awesome_Sauce/Documents/original.html",
+		"/C/Users/Awesome_Sauce/Documents/main.js",
+		"/C/Users/Awesome_Sauce/Documents/style.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.3333333333
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "gridProjectFile.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
