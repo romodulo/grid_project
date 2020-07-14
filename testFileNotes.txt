@@ -1,0 +1,81 @@
+i will take a break and review what I have done.
+
+The first thing I needed to do was create a project
+
+django-admin startproject myproject
+
+next i check if my django project is running by going to the directory that holds manage.py
+
+this manage.py file was created when executing the django-admin startproject command
+
+this command also created a folder directory called myproject
+
+and within that myproject folder i have a python manage.py file
+
+cd into myproject
+
+and run
+
+python manage.py runserver and go to port 8000
+
+when you see the launching rocketship
+
+django is successfully installed. congratulations
+
+next we need a app
+
+go back to the folder holding manage.py so we can create a new folder directory called myapp, so this directory isn't inside the myproject directory, but alongside with it. 
+
+anyways go to the same directory as python manage.py again, and type this command
+
+python manage.py startapp grid
+
+I like to start with an app named grid, because that is the whole purpose of my project
+
+to create a grid website
+
+now that command executes 
+
+a new file directory gets created, which in this case is called grid,
+
+within in it, it has views, and urls
+
+so does your myproject file directory
+
+first we need a view so we can view something on the browser
+
+from django.http import HttpResponse
+
+create a function called
+
+def index(request):
+    return HttpResponse("Whatever you want to say on your home page")
+
+ now you move on to the urls.py file, which isn't created yet, so you have to create it. This will help you point to the main site's url settings, which I will show you here now..
+
+ on this new file you created under the grid app, urls.py
+
+ you want to import path from django.urls and import views from the . (relative directory - same directory)
+
+ now you got the views function, you remember you created a index function within the views function
+
+ so, now you want to type a urlpattern, which django understands, and which you unfortunately just have to memorize for now, which is a list that includes the path the view you just created.
+
+ this takes two arguments,
+
+ path takes in the name of the path, and where the path is pointed at so the urlpattern is path("", views.index),
+
+ simple enough. that's it. 
+ so django doesn't know how to open up this url so you need to point this url pattern to the main django's url patterns of your main website
+
+ so going to myproject's file called url.py
+
+ include the following code "include" under the import function from django.urls
+
+ under the urlpatterns list, you want to point it to the urlspatters in your app's directory
+
+ the urlpattern in total is path("", include('grid.urls'))
+
+ as an argument, so it must be in strings, which django wants for now, which you have to memorize as well. and now you're done. 
+
+ Now I will take a break, and find out how to render html files into my views, and i think i need to write out templates, which I will want to watch dennis ivy's for now, because I haven't reached that far in the django tutorial, but I know it is close. 
