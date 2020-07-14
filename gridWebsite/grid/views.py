@@ -4,7 +4,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-	return HttpResponse("Index")
+	return render(request, 'grid/main.html')
 
 def home(request):
-	return HttpResponse("Home")
+	return HttpResponse("Home Page by HttpResponse")
