@@ -2,4 +2,64 @@ Hello Everyone,
 
 My name is Romel Elizaga
 
-and I am going to explain to 
+and I am going to explain
+to you how to create a grid using css
+
+with django
+
+so far, the technologies
+
+that i know is 
+
+very little css
+
+very little html
+
+very little django
+
+little python
+
+zero javascript
+
+and 
+
+i am going to create a grid on css
+
+using django, 
+
+html
+
+and python...
+
+let's see how well this works out, shall we?
+
+so the first step we're going to do is start a new project on python
+
+I would normally use cmd
+
+for now i will use git bash
+
+i downloaded git bash and what i am going to do next is 
+
+sorry I needed to restart my obs, so my file is definitely saved.
+
+so back to the video
+
+What I am Going To Do Is
+
+open my command prompt, which in this case is my git bash,
+
+I won't explain it in this video, but using git bash requires that I download a software called git, which I won't explain it here, but it is a very straight forward process
+
+next I will create a user, which i forgot all the commands to already, oh well 
+
+i know my username and email to log in my saves (which, git calls "commits") is already set up...
+
+so i won't set up my username or email here.
+
+whenever i make a commit, git bash will write the save ("commit") using my credentials, which i gave it in the beginning, which is my username and email..
+
+actually, let's just write out my username and email again, because I will be showing you how to use github, and create a repository
+
+
+
