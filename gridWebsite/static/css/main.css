@@ -8,16 +8,17 @@
 	display:grid;
 	height:100vh;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-	grid-gap: 1em;
+	grid-template-rows: 1fr 4fr 1fr;
 	grid-template-areas: 
 	"h h h"
 	"n m m"
-	"n m m"
 	"f f f";
 	background-color: #ebeff5;
+	grid-gap:0.2rem;
 }
-
+.romels-container-container {
+	margin:0.2rem;
+}
 
 header {
 	grid-area: h;
@@ -38,13 +39,10 @@ footer {
 	grid-area: f;
 	background-color: teal;
 }
-
-
-
 /* why is this not working? */
 
 /*
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
 	.romels-container {
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -56,3 +54,17 @@ footer {
 	}
 }
 */
+
+@media only screen and (max-width: 500px) {
+	.romels-container {
+		grid-template-columns: 1fr;
+		grid-auto-rows: 0.4fr 0.4fr 2.2fr 1fr;
+		grid-template-areas:
+		"h"
+		"n" 
+		"m"
+		"f"
+		;
+
+	}
+}
