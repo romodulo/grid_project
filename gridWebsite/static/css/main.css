@@ -1,0 +1,58 @@
+/* 
+	This will be where I will place
+	my main.css 
+
+*/
+
+.romels-container {
+	display:grid;
+	height:100vh;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-gap: 1em;
+	grid-template-areas: 
+	"h h h"
+	"n m m"
+	"n m m"
+	"f f f";
+	background-color: #ebeff5;
+}
+
+
+header {
+	grid-area: h;
+	background-color: grey;
+}
+
+nav {
+	grid-area: n;
+	background-color:#4cb4c7;
+}
+
+main {
+	grid-area: m;
+	background-color:#7abecc;
+}
+
+footer {
+	grid-area: f;
+	background-color: teal;
+}
+
+
+
+/* why is this not working? */
+
+/*
+@media only screen and (max-width: 500px) {
+	.romels-container {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		grid-template-areas: 
+		"h"
+		"n"
+		"m"
+		"f";
+	}
+}
+*/

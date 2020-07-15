@@ -7,4 +7,4 @@ def index(request):
 	return render(request, 'grid/main.html')
 
 def home(request):
-	return HttpResponse("Home Page by HttpResponse")
+	return render(request, 'grid/products.html')
