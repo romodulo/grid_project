@@ -79,3 +79,22 @@ def index(request):
  as an argument, so it must be in strings, which django wants for now, which you have to memorize as well. and now you're done. 
 
  Now I will take a break, and find out how to render html files into my views, and i think i need to write out templates, which I will want to watch dennis ivy's for now, because I haven't reached that far in the django tutorial, but I know it is close. 
+
+
+ Yes it finally worked! 
+
+ omg this programming thing is the most difficult thing in the world. .
+
+ i can only do conventions.
+
+ i can not do file directories and whatnot.
+
+ whatever i can do on my laptop, i can do in the workplace
+
+ if i can't do it in the workplace, i cant do it in my laptop
+
+ meaning if its not possible on my laptop, i won't have the capability to do it in the workplace environment, unless the workplace environment is my laptop 
+
+ . . .
+
+ awesome
