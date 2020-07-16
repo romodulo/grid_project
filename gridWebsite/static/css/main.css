@@ -6,6 +6,11 @@
 body {
 	height:100vh;
 }
+
+.romeltitlefont {
+	color:red;
+}
+
 .romels-container {
 	display:grid;
 	height:100vh;
@@ -13,8 +18,8 @@ body {
 	grid-template-rows: 1fr 4fr 1fr;
 	grid-template-areas: 
 	"h h h"
-	"n m m"
-	"f f f";
+	"n n n"
+	"f m m";
 	background-color: #ebeff5;
 	grid-gap:0.2rem;
 }
