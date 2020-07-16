@@ -3,7 +3,9 @@
 	my main.css 
 
 */
-
+body {
+	height:100vh;
+}
 .romels-container {
 	display:grid;
 	height:100vh;
@@ -61,8 +63,8 @@ footer {
 		grid-auto-rows: 0.4fr 0.4fr 2.2fr 1fr;
 		grid-template-areas:
 		"h"
-		"n" 
-		"m"
+		"m" 
+		"n"
 		"f"
 		;
 
