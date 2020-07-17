@@ -27,8 +27,17 @@ body {
 	background-color: #ebeff5;
 	grid-gap:0.2rem;
 }
+
+/* main containers holding containers */
 .romels-container-container {
 	margin:0.2rem;
+}
+
+.romels-weekly-container {
+	display:grid;
+	height:100vh;
+	margin:0px;
+	padding:0px;
 }
 
 #romelsid {
@@ -117,8 +126,23 @@ body {
 	display:flex;
 	align-items:center;
 	justify-content: center;
-	grid-area:sat;
+	grid-area:sun;
 	background-color: grey;
+}
+
+/* container called romels-weekly */
+
+.romels-weekly {
+	display:grid;
+	height:100vh;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: 1fr;
+	grid-template-areas: 
+	"mon tue wed thu fri sat sun";
+	background-color: #ebeff5;
+	grid-gap:0.2rem;
+}
+
 }
 
 
