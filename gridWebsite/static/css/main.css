@@ -33,6 +33,10 @@ body {
 	padding:0px;
 }
 
+.romels-weekly-container-v3 {
+	margin:0.2rem;
+}
+
 /* End of all main containers */
 
 /* These are my secondary containers after main */
@@ -70,6 +74,16 @@ body {
 	grid-template-areas: 
 	"mon tue wed thu fri sat sun";
 	background-color: #F0F0F0;
+}
+/* for vers. three */
+.romels-weekly-v3 {
+	display:grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: 1fr;
+	grid-template-areas: 
+	"mon tue wed thu fri sat sun";
+	background-color: #F0F0F0;
+	justify-content:space-around;
 }
 
 /* Flex-boxes */
@@ -214,6 +228,10 @@ body {
 	flex-direction:column;
 	grid-area: sun;
 
+}
+
+.itemr {
+	justify-content: center;
 }
 
 
