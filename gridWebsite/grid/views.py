@@ -3,8 +3,8 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def index(request):
+def home(request):
 	return render(request, 'grid/main-extended.html')
 
-def home(request):
-	return render(request, 'grid/products.html')
+def simple(request):
+	return render(request, 'grid/simple.html')
