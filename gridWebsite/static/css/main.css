@@ -13,6 +13,31 @@ body {
 	color:red;
 }
 
+/* These are all my main containers*/
+
+.romels-home-container {
+	margin:0.2rem;
+}
+
+.romels-weekly-container {
+	display:grid;
+	height:100vh;
+	margin:0px;
+	padding:0px;
+}
+
+.romels-weekly-container-v2 {
+	display:grid;
+	height:100vh;
+	margin:0px;
+	padding:0px;
+}
+
+/* End of all main containers */
+
+/* These are my secondary containers after main */
+
+/* for home */
 .romels-container {
 	display:grid;
 	height:100vh;
@@ -27,19 +52,29 @@ body {
 	background-color: #ebeff5;
 	grid-gap:0.2rem;
 }
-
-/* main containers holding containers */
-.romels-container-container {
-	margin:0.2rem;
-}
-
-.romels-weekly-container {
+/* for regular weekly */
+.romels-weekly {
 	display:grid;
-	height:100vh;
-	margin:0px;
-	padding:0px;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: 1fr;
+	grid-template-areas: 
+	"mon tue wed thu fri sat sun";
+	background-color: #ebeff5;
+	grid-gap:0.2rem;
+}
+/* for vers. two */
+.romels-weekly-v2 {
+	display:grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: 1fr;
+	grid-template-areas: 
+	"mon tue wed thu fri sat sun";
+	background-color: #F0F0F0;
+	grid-gap:0.2rem;
 }
 
+/* Flex-boxes */
+/* For home */
 #romelsid {
 	display:flex;
 	align-items: center;
@@ -73,7 +108,8 @@ body {
 }
 
 
-/* adding a simple class*/
+/* Flex-boxes*/
+/* For regular weekly*/
 .simpleflex001 {
 	display:flex;
 	align-items:center;
@@ -130,88 +166,46 @@ body {
 	background-color: grey;
 }
 
-/* container called romels-weekly */
-/* for simpleweek.html */
-/* important */
-.romels-weekly {
-	display:grid;
-	grid-template-columns: repeat(7, 1fr);
-	grid-template-rows: 1fr;
-	grid-template-areas: 
-	"mon tue wed thu fri sat sun";
-	background-color: #ebeff5;
-	grid-gap:0.2rem;
-}
-
-/* used on simpleweeklygrid*/
-.romels-weekly-v2 {
-	display:grid;
-	grid-template-columns: repeat(7, 1fr);
-	grid-template-rows: 1fr;
-	grid-template-areas: 
-	"mon tue wed thu fri sat sun";
-	/*background-color: #ebeff5;*/
-	/* test color only */
-	background-color: #F0F0F0;
-	grid-gap:0.2rem;
-	margin:0px;
-	padding:0px;
-}
-
-/* for simpleweeklygrid.html file */
-/* creating a simple grid class within*/
-/* another grid class */
+/* Grid boxes*/
+/* For vers. two */
 .simplegrid001 {
 	display:grid;
-	/*grid-template-column:1fr;*/
-	grid-template-rows: repeat(24, 1fr);
 	grid-area: mon;
 
 }
 
 .simplegrid002 {
 	display:grid;
-	/*grid-template-column:1fr;*/
-	grid-template-rows: repeat(24, 1fr);
 	grid-area: tue;
 
 }
 
 .simplegrid003 {
 	display:grid;
-	/*grid-template-column:1fr;*/
-	grid-template-rows: repeat(24, 1fr);
 	grid-area: wed;
 
 }
 
 .simplegrid004 {
 	display:grid;
-	/*grid-template-column:1fr;*/
-	grid-template-rows: repeat(24, 1fr);
 	grid-area: thu;
 
 }
 
 .simplegrid005 {
 	display:grid;
-	/*grid-template-column:1fr;*/
-	grid-template-rows: repeat(24, 1fr);
 	grid-area: fri;
 
 }
 
 .simplegrid006 {
 	display:grid;
-	/*grid-template-column:1fr;*/
-	grid-template-rows: repeat(24, 1fr);
 	grid-area: sat;
 
 }
 
 .simplegrid007 {
 	display:grid;
-	grid-template-rows: repeat(24, 1fr);
 	grid-area: sun;
 
 }
