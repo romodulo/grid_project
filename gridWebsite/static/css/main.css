@@ -169,43 +169,43 @@ body {
 /* Grid boxes*/
 /* For vers. two */
 .simplegrid001 {
-	display:grid;
+	display:flex;
 	grid-area: mon;
 
 }
 
 .simplegrid002 {
-	display:grid;
+	display:flex;
 	grid-area: tue;
 
 }
 
 .simplegrid003 {
-	display:grid;
+	display:flex;
 	grid-area: wed;
 
 }
 
 .simplegrid004 {
-	display:grid;
+	display:flex;
 	grid-area: thu;
 
 }
 
 .simplegrid005 {
-	display:grid;
+	display:flex;
 	grid-area: fri;
 
 }
 
 .simplegrid006 {
-	display:grid;
+	display:flex;
 	grid-area: sat;
 
 }
 
 .simplegrid007 {
-	display:grid;
+	display:flex;
 	grid-area: sun;
 
 }
