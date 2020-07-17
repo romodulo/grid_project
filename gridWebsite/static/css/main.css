@@ -70,7 +70,6 @@ body {
 	grid-template-areas: 
 	"mon tue wed thu fri sat sun";
 	background-color: #F0F0F0;
-	grid-gap:0.2rem;
 }
 
 /* Flex-boxes */
@@ -170,45 +169,53 @@ body {
 /* For vers. two */
 .simplegrid001 {
 	display:flex;
+	flex-direction:column;
 	grid-area: mon;
 
 }
 
 .simplegrid002 {
 	display:flex;
+	flex-direction:column;
 	grid-area: tue;
 
 }
 
 .simplegrid003 {
 	display:flex;
+	flex-direction:column;
 	grid-area: wed;
 
 }
 
 .simplegrid004 {
 	display:flex;
+	flex-direction:column;
 	grid-area: thu;
 
 }
 
 .simplegrid005 {
 	display:flex;
+	flex-direction:column;
 	grid-area: fri;
 
 }
 
 .simplegrid006 {
 	display:flex;
+	flex-direction:column;
 	grid-area: sat;
 
 }
 
 .simplegrid007 {
 	display:flex;
+	flex-direction:column;
 	grid-area: sun;
 
 }
+
 
 /* for each individual item in simpleweeklygrid */
 /*
