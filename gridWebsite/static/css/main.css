@@ -37,6 +37,14 @@ body {
 	margin:0.2rem;
 }
 
+.romels-weekly-container-v4 {
+	display:grid;
+	height:100vh;
+	margin:0px;
+	padding:0px;
+}
+
+
 /* End of all main containers */
 
 /* These are my secondary containers after main */
@@ -76,15 +84,30 @@ body {
 	background-color: #F0F0F0;
 }
 /* for vers. three */
+/* simplegrid.html */
 .romels-weekly-v3 {
+	display:grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: 1fr;
+	background-color: red;
+}
+
+/* new class simplegridver2*/
+/* simplegrid.html */
+.simplegridver2 {
+	display:flex;
+	flex-direction:column;
+}
+
+.romels-weekly-v4 {
 	display:grid;
 	grid-template-columns: repeat(7, 1fr);
 	grid-template-rows: 1fr;
 	grid-template-areas: 
 	"mon tue wed thu fri sat sun";
-	background-color: #F0F0F0;
-	justify-content:space-around;
+	background-color: blue;
 }
+
 
 /* Flex-boxes */
 /* For home */
