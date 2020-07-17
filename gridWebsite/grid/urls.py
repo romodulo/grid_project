@@ -7,4 +7,5 @@ urlpatterns = [
     path('simple/', views.simple),
     path('simpleweekly/', views.simpleweekly),
 	path('simpleweeklygrid/', views.simpleweeklygrid),
+	path('simplegrid/', views.simplegrid),
 ]
