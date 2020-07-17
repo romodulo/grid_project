@@ -11,3 +11,6 @@ def simple(request):
 
 def simpleweekly(request):
 	return render(request, 'grid/simple-weekly.html')
+
+def simpleweeklygrid(request):
+	return render(request, 'grid/simpleweeklygrid.html')

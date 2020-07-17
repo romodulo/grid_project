@@ -78,7 +78,7 @@ body {
 	display:flex;
 	align-items:center;
 	justify-content: center;
-	grid-area:mon;
+	grid-area:tue;
 	background-color: grey;
 }
 
@@ -131,10 +131,10 @@ body {
 }
 
 /* container called romels-weekly */
-
+/* for simpleweek.html */
+/* important */
 .romels-weekly {
 	display:grid;
-	height:100vh;
 	grid-template-columns: repeat(7, 1fr);
 	grid-template-rows: 1fr;
 	grid-template-areas: 
@@ -143,8 +143,50 @@ body {
 	grid-gap:0.2rem;
 }
 
+/* for simpleweeklygrid.html file */
+/* creating a simple grid class within*/
+/* another grid class */
+.simplegrid001 {
+	display:grid;
+	/*grid-template-column:1fr;*/
+	grid-template-rows: repeat(24, 1fr);
 }
 
+.simplegrid002 {
+	display:grid;
+	/*grid-template-column:1fr;*/
+	grid-template-rows: repeat(24, 1fr);
+}
+
+.simplegrid003 {
+	display:grid;
+	/*grid-template-column:1fr;*/
+	grid-template-rows: repeat(24, 1fr);
+}
+
+.simplegrid004 {
+	display:grid;
+	/*grid-template-column:1fr;*/
+	grid-template-rows: repeat(24, 1fr);
+}
+
+.simplegrid005 {
+	display:grid;
+	/*grid-template-column:1fr;*/
+	grid-template-rows: repeat(24, 1fr);
+}
+
+.simplegrid006 {
+	display:grid;
+	/*grid-template-column:1fr;*/
+	grid-template-rows: repeat(24, 1fr);
+}
+
+.simplegrid007 {
+	display:grid;
+	/*grid-template-column:1fr;*/
+	grid-template-rows: repeat(24, 1fr);
+}
 
 /* why is this not working? */
 
