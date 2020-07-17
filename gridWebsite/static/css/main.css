@@ -78,7 +78,7 @@ body {
 	display:flex;
 	align-items:center;
 	justify-content: center;
-	grid-area:tue;
+	grid-area:mon;
 	background-color: grey;
 }
 
@@ -143,6 +143,21 @@ body {
 	grid-gap:0.2rem;
 }
 
+/* used on simpleweeklygrid*/
+.romels-weekly-v2 {
+	display:grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: 1fr;
+	grid-template-areas: 
+	"mon tue wed thu fri sat sun";
+	/*background-color: #ebeff5;*/
+	/* test color only */
+	background-color: #F0F0F0;
+	grid-gap:0.2rem;
+	margin:0px;
+	padding:0px;
+}
+
 /* for simpleweeklygrid.html file */
 /* creating a simple grid class within*/
 /* another grid class */
@@ -150,43 +165,69 @@ body {
 	display:grid;
 	/*grid-template-column:1fr;*/
 	grid-template-rows: repeat(24, 1fr);
+	grid-area: mon;
+
 }
 
 .simplegrid002 {
 	display:grid;
 	/*grid-template-column:1fr;*/
 	grid-template-rows: repeat(24, 1fr);
+	grid-area: tue;
+
 }
 
 .simplegrid003 {
 	display:grid;
 	/*grid-template-column:1fr;*/
 	grid-template-rows: repeat(24, 1fr);
+	grid-area: wed;
+
 }
 
 .simplegrid004 {
 	display:grid;
 	/*grid-template-column:1fr;*/
 	grid-template-rows: repeat(24, 1fr);
+	grid-area: thu;
+
 }
 
 .simplegrid005 {
 	display:grid;
 	/*grid-template-column:1fr;*/
 	grid-template-rows: repeat(24, 1fr);
+	grid-area: fri;
+
 }
 
 .simplegrid006 {
 	display:grid;
 	/*grid-template-column:1fr;*/
 	grid-template-rows: repeat(24, 1fr);
+	grid-area: sat;
+
 }
 
 .simplegrid007 {
 	display:grid;
-	/*grid-template-column:1fr;*/
 	grid-template-rows: repeat(24, 1fr);
+	grid-area: sun;
+
 }
+
+/* for each individual item in simpleweeklygrid */
+/*
+.item {
+	border-right-style: dotted;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+} 
+
+.text-item-title {
+	background-color: blue;
+}
+*/
 
 /* why is this not working? */
 
