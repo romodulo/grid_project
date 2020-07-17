@@ -62,6 +62,66 @@ body {
 	grid-area: f;
 	background-color: teal;
 }
+
+
+/* adding a simple class*/
+.simpleflex001 {
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	grid-area:mon;
+	background-color: grey;
+}
+
+.simpleflex002 {
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	grid-area:tue;
+	background-color: grey;
+}
+
+.simpleflex003 {
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	grid-area:wed;
+	background-color: grey;
+}
+
+.simpleflex004 {
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	grid-area:thu;
+	background-color: grey;
+}
+
+.simpleflex005 {
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	grid-area:fri;
+	background-color: grey;
+}
+
+.simpleflex006 {
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	grid-area:sat;
+	background-color: grey;
+}
+
+.simpleflex007 {
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	grid-area:sat;
+	background-color: grey;
+}
+
+
 /* why is this not working? */
 
 /*

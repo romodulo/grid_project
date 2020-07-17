@@ -8,3 +8,6 @@ def home(request):
 
 def simple(request):
 	return render(request, 'grid/simple.html')
+
+def simpleweekly(request):
+	return render(request, 'grid/simple-weekly.html')
