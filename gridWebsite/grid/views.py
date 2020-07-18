@@ -20,3 +20,6 @@ def simplegrid(request):
 
 def grid4(request):
 	return render(request, 'grid/grid4.html')
+
+def tutor(request):
+	return render(request, 'grid/tutorial.html')
