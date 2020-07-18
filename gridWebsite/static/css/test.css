@@ -1,0 +1,17 @@
+/* This is so confusing */
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: 1fr;
+	align-items: stretch;
+	justify-items: stretch;
+}
+
+.grid-item {
+
+}
+
+.time-item {
+	border:dotted;
+}

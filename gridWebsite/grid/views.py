@@ -23,3 +23,9 @@ def grid4(request):
 
 def tutor(request):
 	return render(request, 'grid/tutorial.html')
+
+def test(request):
+	return render(request, 'grid/test.html')
+
+def test2(request):
+	return render(request, 'grid/test2.html')
