@@ -1,0 +1,48 @@
+Dear Users,
+
+I think I found the solution
+
+Romel
+3:11.59 p.m. 
+
+Dear Users,
+
+I apologize for not making my own bracket columns and
+rows.
+
+As some of you might know, 
+
+I am only a jr. developer.
+
+I tried conceptualizing the idea of coding my own
+brackets, but i stumbled on a roadblock ...
+
+It will take too much time to design one myself, 
+
+So, I implemented what's available, which is why I
+am implementing the challonge platform style
+brackets. 
+
+------
+If you were able to conceptualize the bracket style
+format in web design, I highly suggest you go
+into the software development field.
+
+You are talented.
+
+If you would like to try to conceptualize this 
+yourself, then you may try to design a bracket
+look-a-like in excel, and if you are to do that, 
+then the next time step would be to translate
+it to html and css, and find a way to retrieve
+data and display data on your excel look-a-like
+of your look-a-like bracket. Then you're done.
+
+Well, I decided it would take too much time, with
+learning the basic strategies to build on from
+concept, and there is already one made from
+challonge, so I'm going to use Challonge's
+platform.
+
+Hope you enjoy!.
+

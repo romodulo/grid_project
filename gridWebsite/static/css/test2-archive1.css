@@ -1,0 +1,26 @@
+/* */
+
+.griditself {
+	display: grid;
+	grid-template-columns: repeat(7, auto);
+	grid-auto-rows: auto;
+
+}
+
+.griditems {
+	border:solid 1px gray;
+}
+
+.griditself1 {
+	display: grid;
+	grid-template-columns: repeat(7, auto);
+	grid-auto-rows: auto;
+	
+}
+
+.griditems1 {
+}
+
+.time {
+	border:solid 1px gray;
+}
