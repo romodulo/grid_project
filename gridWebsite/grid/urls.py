@@ -13,5 +13,4 @@ urlpatterns = [
 	path('tutor/', views.tutor),
 	path('test/', views.test),
 	path('test2/', views.test2),
-	path('create_booking', views.createOrder, name="createOrder")
 ]
