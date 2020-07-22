@@ -1,2 +1,6 @@
 from django.contrib import admin
-# Register your models here.
+from .models import *
+
+admin.site.register(TennisPlayer)
+admin.site.register(TimeBooked)
+admin.site.register(Booking)

@@ -1,7 +1,18 @@
 {% extends 'grid/main.html'%}
 
 {% block container-content %}
-
+<h1>Hello World</h1>
+<hr>
+<h1>These are players.</h1>
+{% for each in players %}
+<p>{{each.name}}</p>
+{% endfor %}
+<hr>
+<h1>These are the times.</h1>
+{% for each in times %}
+<p>{{each.name}}</p>
+{% endfor %}
+<h1>Footer</h1>
 
 
 {% endblock %}

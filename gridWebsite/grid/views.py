@@ -1,10 +1,11 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import *
 
 # Create your views here.
 
-def home(request):
-	return render(request, 'grid/home.html')
+def index(request):
+	return render(request, 'grid/index.html')
 
 def simple(request):
 	return render(request, 'grid/simple.html')
@@ -29,3 +30,9 @@ def test(request):
 
 def test2(request):
 	return render(request, 'grid/test2.html')
+
+def home(request):
+	players = TennisPlayer.objects.all()
+	times = TimeBooked.objects.all()
+	context = { "players":players, "times":times }
+	return render(request, 'grid/home.html', context)
