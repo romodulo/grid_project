@@ -10,7 +10,7 @@ urlpatterns = [
 	path('simpleweeklygrid/', views.simpleweeklygrid),
 	path('simplegrid/', views.simplegrid),
 	path('grid4/', views.grid4),
-	path('tutor/', views.tutor),
+	path('tutorial/', views.tutorial),
 	path('test/', views.test),
 	path('test2/', views.test2),
 ]

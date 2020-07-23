@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-from .models import Player, Block, Time
+from .models import *
 
 def index(request):
 	return render(request, 'grid/index.html')
@@ -21,7 +21,7 @@ def simplegrid(request):
 def grid4(request):
 	return render(request, 'grid/grid4.html')
 
-def tutor(request):
+def tutorial(request):
 	return render(request, 'grid/tutorial.html')
 
 def test(request):
@@ -33,6 +33,11 @@ def test2(request):
 def home(request):
 	players = Player.objects.all()
 	times = Time.objects.all()
-	context = {"players":players, "times":times}
 
+	blogs = Blog.objects.all()
+
+
+
+
+	context = {"players":players, "times":times}
 	return render(request, 'grid/home.html', context)

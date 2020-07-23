@@ -1,5 +1,9 @@
 {% extends 'grid/main.html'%}
 
+{% load static %}
+{% block content-css %}
+<link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
+{% endblock %}
 
 {% block container-content %}
 
