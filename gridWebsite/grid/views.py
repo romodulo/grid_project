@@ -1,8 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-
-# Create your views here.
+from .models import Player, Block, Time
 
 def index(request):
 	return render(request, 'grid/index.html')
@@ -32,7 +31,8 @@ def test2(request):
 	return render(request, 'grid/test2.html')
 
 def home(request):
-
-	context = {}
+	players = Player.objects.all()
+	times = Time.objects.all()
+	context = {"players":players, "times":times}
 
 	return render(request, 'grid/home.html', context)

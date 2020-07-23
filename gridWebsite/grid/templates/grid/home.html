@@ -1,8 +1,30 @@
 {% extends 'grid/main.html'%}
 
 {% block container-content %}
+<div class="row">
+	<div class="col">
+		{% for player in players %}
+<p class="lead">{{player.name}}</p>
+{% endfor %}
+	</div>
+	<div class="col">
+		{% for time in times %}
+<p class="lead">{{time.name}}</p>
+{% endfor %}
+	</div>	
+</div>
 
+<!-- I don't know what this does:
 
+<div class="row">
+	<div class="col">
+		{% for block in blocks %}
+<p class="lead">{{block}}</p>
+{% endfor %}
+	</div>
+</div>
+
+-->
 
 
 {% endblock %}
