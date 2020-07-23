@@ -13,4 +13,5 @@ urlpatterns = [
 	path('tutorial/', views.tutorial),
 	path('test/', views.test),
 	path('test2/', views.test2),
+	path('createorder/', views.createOrder, name="createorder"),
 ]

@@ -1,7 +1,8 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
 
 from .models import *
+from .forms import PlayerForm
 
 def index(request):
 	return render(request, 'grid/index.html')
@@ -31,13 +32,21 @@ def test2(request):
 	return render(request, 'grid/test2.html')
 
 def home(request):
-	players = Player.objects.all()
-	times = Time.objects.all()
-
-	blogs = Blog.objects.all()
+	blocks = Block.objects.all()
 
 
-
-
-	context = {"players":players, "times":times}
+	context = {"blocks": blocks}
 	return render(request, 'grid/home.html', context)
+
+def createOrder(request):
+
+	form = PlayerForm()
+	if request.method=="POST":
+		print("Printing POST", request.POST)
+		form = PlayerForm(request.POST)
+		if form.is_valid():
+			form.save()
+			return redirect('/home')
+
+	context={'form': form}
+	return render(request, 'grid/forms.html', context)

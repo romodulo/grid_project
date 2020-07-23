@@ -6,6 +6,12 @@
 {% endblock %}
 
 {% block container-content %}
+
+<!-- There is no stylesheet styles
+ 
+	git commit dcf9398 
+	name="this version works no horizontal scrolling -->
+
 <table class="table table-striped" style="text-align:center;" id="supertable">
 		<thead>
 			<tr class="thead-dark">
@@ -28,12 +34,14 @@
 				<td><br><div>06:00 am</div><br><div>Jon, Jason vs. Cris, Romel</div><br></td>
 				<td><br><div>06:00 am</div><br><div>Jon, Jason vs. Cris, Romel</div><br></td>
 			</tr>
-			<tr> <!-- need span --> <!-- for rendering data from db-->
-				<td><div>06:30 am</div><br><div><a href="{% url 'createorder' %}">Book</a></div></td>
-				<td><div>06:30 am</div><br><div><a href="{% url 'createorder' %}">Book</a></div></td>
-				<td><div>06:30 am</div><br><div><a href="{% url 'createorder' %}">Book</a></div></td>
-				<td><div>06:30 am</div><br><div><a href="{% url 'createorder' %}">Book</a></div></td>
-				<td><div>06:30 am</div><br><div><a href="{% url 'createorder' %}">Book</a></div></td>
+			<tr>
+				<td><div>06:30 am</div><br><div><a href="#">Book</a></div></td>
+				<td><div>06:30 am</div><br><div><a href="#">Book</a></div></td>
+				<td><div>06:30 am</div><br><div><a href="#">Book</a></div></td>
+				<td><div>06:30 am</div><br><div><a href="#">Book</a></div></td>
+				<td><div>06:30 am</div><br><div><a href="#">Book</a></div></td>
+				<td><div>06:30 am</div><br><div><a href="#">Book</a></div></td>
+				<td><div>06:30 am</div><br><div><a href="#">Book</a></div></td>
 			</tr>
 			<tr>
 				<td>07:00 am</td>
