@@ -1,5 +1,6 @@
 from django.shortcuts import render
 
-def dashboard(request):
+def shop_home(request):
+
 	context = {}
-	return render(request, 'shop/dashboard.html', context)
+	return render(request, 'shop/shop_home.html', context)
