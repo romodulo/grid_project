@@ -38,7 +38,7 @@ class Log(models.Model):
 	player1 	= models.ForeignKey(Player, on_delete=models.CASCADE)
 	month_date	= models.ForeignKey(Month, on_delete=models.CASCADE)
 	guest		= models.CharField(max_length=10)
-	log_created	= models.DateField(auto_now_add=True)
+	log_created	= models.DateTimeField(auto_now_add=True)
 
 	def __str__(self):
-		return self.log_created
+		return str(self.log_created)
