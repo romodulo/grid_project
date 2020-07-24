@@ -13,7 +13,7 @@ class Month(models.Model):
 class Player(models.Model):
 	name 		= models.CharField(max_length=20)
 
-class WhatsappNum(models.model):
+class WhatsappNum(models.Model):
 	number 		= models.IntegerField()
 	name 		= models.ForeignKey(Player, on_delete=models.CASCADE)
 
