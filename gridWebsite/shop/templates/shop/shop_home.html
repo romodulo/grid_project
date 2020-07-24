@@ -5,6 +5,7 @@
 {% endblock %}
 
 {% block shop-content %}
+<!--These are nothing but random typings -->
 <div>
 	<br>
 	<h1>hello World</h1>
@@ -18,137 +19,33 @@
 </div>
 <br>
 <br>
-<table class="table table-striped table-bordered">
-	<caption>This is a list of players</caption>
-	<thead class="thead-dark">
-		<tr>
-			<th>First</th>
-			<th>Second</th>
-			<th>Third</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-		</tr>
-		<tr>
-			<td>Rome</td>
-			<td>Jase</td>
-			<td>R</td>
-		</tr>
-	</tbody>
-</table>
-<br>
-<br>
-<table class="table table-striped table-bordered">
-	<caption>This is a list of courts</caption>
-	<thead class="thead-dark">
-		<tr>
-			<th>First</th>
-			<th>Second</th>
-			<th>Third</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-		</tr>
-		<tr>
-			<td>Rome</td>
-			<td>Jase</td>
-			<td>R</td>
-		</tr>
-	</tbody>
-</table>
-<br>
-<br>
-<br>
-<br>
-<br>
-<!-- This table shows values in a column -->
-<table class="table table-striped table-bordered">
-	<caption>This is a test table</caption>
-	<thead class="thead-dark">
-		<tr>
-			<th>Something</th>
-			<th>Something</th>
-			<th>Something</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td></td>
-			<td></td>
-			<td>.</td>
-		</tr>
-		{% for obj in objects %}
-		<tr>
-			<td>ID: {{obj.id}}</td>
-			<td>placeholder</td>
-			<td>placeholder</td>
-		</tr>
-		<tr>
-			<td>{{obj.court}}</td>
-			<td>placeholder</td>
-			<td>placeholder</td>
-		</tr>
-		<tr>
-			<td>{{obj.court_time}}</td>
-			<td>placeholder</td>
-			<td>placeholder</td>
-		</tr>
-		<tr>
-			<td>{{obj.player1}}</td>
-			<td>placeholder</td>
-			<td>placeholder</td>
-		</tr>
-		<tr>
-			<td>{{obj.guest}}</td>
-			<td>placeholder</td>
-			<td>placeholder</td>
-		</tr>
-		<tr>
-			<td>{{obj.month_date}}</td>
-			<td>placeholder</td>
-			<td>placeholder</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td>.</td>
-		</tr>
-		{% endfor %}
-	</tbody>
-</table>
 <!-- This table shows values going in a row -->
-<table class="table table-striped table-bordered">
-	<caption>This is a test table</caption>
-	<thead class="thead-dark">
-		<tr>
-			<th>ID</th>
-			<th>Court</th>
-			<th>Court Time</th>
-			<th>Player 1</th>
-			<th>Player 2</th>
-			<th>Date</th>
-		</tr>
-	</thead>
-	<tbody>
-		{% for obj in objects %}
-		<tr>
-			<td>{{obj.id}}</td>
-			<td>{{obj.court}}</td>
-			<td>{{obj.court_time}}</td>
-			<td>{{obj.player1}}</td>
-			<td>{{obj.guest}}</td>
-			<td>{{obj.month_date}}</td>
-		</tr>
-		{% endfor %}
-	</tbody>
-</table>
+<div class="container">
+	<table class="table table-striped table-bordered">
+		<caption>This is the new table</caption>
+		<thead class="thead-dark">
+			<tr>
+				<th>ID</th>
+				<th>Court</th>
+				<th>Court Time</th>
+				<th>Player 1</th>
+				<th>Player 2</th>
+				<th>Date</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for obj in objects %}
+			<tr>
+				<td>{{obj.id}}</td>
+				<td>{{obj.court}}</td>
+				<td>{{obj.court_time}}</td>
+				<td>{{obj.player1}}</td>
+				<td>{{obj.guest}}</td>
+				<td>{{obj.month_date}}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</div>
 
 {% endblock %}
