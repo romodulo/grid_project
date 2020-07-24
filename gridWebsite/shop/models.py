@@ -11,7 +11,11 @@ class Month(models.Model):
 	month_date 	= models.DateField()
 
 class Player(models.Model):
-	name 		= models.CharField(max_length=10)
+	name 		= models.CharField(max_length=20)
+
+class WhatsappNum(models.model):
+	number 		= models.IntegerField()
+	name 		= models.ForeignKey(Player, on_delete=models.CASCADE)
 
 class Log(models.Model):
 	court 		= models.ForeignKey(Court, on_delete=models.CASCADE)
