@@ -4,26 +4,26 @@ class Court(models.Model):
 	court_number = models.IntegerField()
 
 	def __str__(self):
-		return "Court: " + str(self.court_number)
+		return str(self.court_number)
 
 class Time(models.Model):
 	court_time = models.TimeField()
 
 	def __str__(self):
-		return "Court-Time: " + str(self.court_time)
+		return str(self.court_time)
 
 class Month(models.Model):
 	name 		= models.CharField(max_length=10)
 	month_date 	= models.DateField()
 
 	def __str__(self):
-		return "Court-Day: " + str(self.month_date)
+		return str(self.month_date)
 
 class Player(models.Model):
 	name 		= models.CharField(max_length=20)
 	
 	def __str__(self):
-		return "Player: " + self.name
+		return self.name
 
 class WhatsappNum(models.Model):
 	number 		= models.IntegerField()
