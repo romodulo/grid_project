@@ -1,5 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Log
+from .forms import LogForm
 
 def updateform_home(request):
 	obj = Log.objects.all()
@@ -51,4 +52,31 @@ def updateform_home(request):
 	"t2000":t2000, "t2030":t2030, "t2100":t2100, "t2130":t2130,
 	"t2200":t2200, "t2230":t2230, "t2300":t2300, "t2330":t2330,
 	}
-	return render(request, "ideas/ideas_home.html", context)
+	return render(request, "updateform/updateforms_home.html", context)
+
+def createOrder(request):
+
+	form = LogForm()
+	if request.method == "POST":
+		print('Printing POST', request.POST)
+		form = LogForm(request.POST)
+		if form.is_valid():
+			form.save()
+			return redirect('/updateform')
+
+	context = {'form': form}
+	return render(request, 'updateform/updateforms_create.html', context)
+
+def updateOrder(request, pk):
+	log = Log.objects.get(id=pk)
+	form = LogForm(instance=log)
+
+	if request.method == "POST":
+		form = LogForm(request.POST, instance=log)
+		if form.is_valid():
+			form.save()
+			return redirect('/updateform')
+
+
+	context = {'form':form}
+	return render(request, 'updateform/updateforms_create.html', context)

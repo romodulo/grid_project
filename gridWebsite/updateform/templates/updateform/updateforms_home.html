@@ -1,7 +1,7 @@
-{% extends 'updateforms/updateforms_main.html' %}
+{% extends 'updateform/updateforms_main.html' %}
 {% load static %}
 {% block shop-css %}
-<title>ideas_home html</title>
+<title>Update</title>
 <link rel="stylesheet" type="text/css" href="{% static '/css/shop_home.css' %}">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 {% endblock %}
@@ -23,7 +23,7 @@
 <br>
 <div>
 	<div>Print Out Objects</div>
-	<div>{{Objects}}</div>
+	<div>{{objects}}</div>
 </div>
 <!-- This table shows values going in a row -->
 <div class="container-fluid">
@@ -48,6 +48,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="{% url 'updateOrder' each.id %}">Update</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -58,6 +59,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -68,6 +70,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -78,6 +81,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -88,6 +92,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -98,6 +103,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -108,6 +114,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -118,6 +125,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -128,6 +136,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -138,6 +147,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -148,6 +158,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -158,6 +169,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -168,6 +180,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -178,6 +191,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -188,6 +202,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -198,6 +213,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -208,6 +224,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -218,6 +235,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -228,6 +246,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -238,6 +257,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -248,6 +268,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -258,6 +279,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -268,6 +290,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -278,6 +301,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -288,6 +312,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -298,6 +323,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -308,6 +334,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -318,6 +345,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -328,6 +356,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -338,6 +367,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -348,6 +378,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -358,6 +389,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -368,6 +400,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -378,6 +411,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -388,6 +422,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
@@ -398,6 +433,7 @@
 					<div></div>
 					<span>{{each.id}}</span><br>
 					<span>{{each.name}}</span>
+					<span><a href="">Book</a></span>
 				</td>
 				{% endfor %}
 			</tr>
