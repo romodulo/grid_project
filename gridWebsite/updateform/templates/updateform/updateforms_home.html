@@ -1,0 +1,408 @@
+{% extends 'updateforms/updateforms_main.html' %}
+{% load static %}
+{% block shop-css %}
+<title>ideas_home html</title>
+<link rel="stylesheet" type="text/css" href="{% static '/css/shop_home.css' %}">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+{% endblock %}
+
+{% block shop-content %}
+<!--These are nothing but random typings -->
+<div>
+	<br>
+	<h1>hello World</h1>
+	<p>I can continue writing until my heart contents</p>
+	<p>Awesome sauce</p>
+	<p>This is more than enough for me to write a website</p>
+	<h1>this works, yes!</h1>
+</div>
+<div>
+	<h2>What can I write about here?</h2>
+</div>
+<br>
+<br>
+<div>
+	<div>Print Out Objects</div>
+	<div>{{Objects}}</div>
+</div>
+<!-- This table shows values going in a row -->
+<div class="container-fluid">
+	<table class="table table-striped table-bordered text-center">
+		<caption>This is the new table</caption>
+		<thead class="thead-dark">
+			<tr>
+				<th>Court 1</th>
+				<th>Court 2</th>
+				<th>Court 3</th>
+				<th>Court 4</th>
+				<th>Court 5</th>
+				<th>Court 6</th>
+				<th>Court 7</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				{% for each in t0600 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t0630 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t0700 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t0730 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t0800 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t0830 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t0900 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t0930 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1000 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1030 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1100 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1130 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1200 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1230 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1300 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1330 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1400 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1430 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1500 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1530 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1600 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1630 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1700 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1730 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1800 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1830 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1900 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t1930 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t2000 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t2030 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t2100 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t2130 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t2200 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t2230 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t2300 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for each in t2330 %}
+				<td>
+					<div></div>
+					<div></div>
+					<span>{{each.id}}</span><br>
+					<span>{{each.name}}</span>
+				</td>
+				{% endfor %}
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+{% endblock %}

@@ -22,5 +22,6 @@ urlpatterns = [
     path('', include('ideas.urls')),
     path('', include('ideas.urls2')),
     path('', include('formsapp.urls2')),
+    path('', include('updateform.urls')),
     path('admin/', admin.site.urls),
 ]
