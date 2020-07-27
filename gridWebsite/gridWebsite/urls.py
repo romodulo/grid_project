@@ -20,5 +20,7 @@ urlpatterns = [
     path('', include('grid.urls')),
     path('', include('shop.urls')),
     path('', include('ideas.urls')),
+    path('', include('ideas.urls2')),
+    path('', include('formsapp.urls2')),
     path('admin/', admin.site.urls),
 ]

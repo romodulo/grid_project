@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'grid',
     'shop',
     'ideas',
+    'formsapp',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
