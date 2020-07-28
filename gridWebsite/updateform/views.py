@@ -75,8 +75,19 @@ def updateOrder(request, pk):
 		form = LogForm(request.POST, instance=log)
 		if form.is_valid():
 			form.save()
-			return redirect('/updateform')
+			#return redirect('/updateform')
+			# for now return to browser HTML
+			return redirect('/browser')
 
 
 	context = {'form':form}
 	return render(request, 'updateform/updateforms_create.html', context)
+
+def browser(request):
+	obj = Log.objects.all()
+	firstname = Log.objects.first()
+	
+	context = {
+	"obj": obj, "first": firstname
+	}
+	return render(request, "updateform/updateforms_browser.html", context)

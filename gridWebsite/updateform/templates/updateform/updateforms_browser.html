@@ -1,0 +1,46 @@
+{% extends 'updateform/updateforms_main.html' %}
+{% load static %}
+{% load modulo %}
+{% block shop-css %}
+<title>Browser_in_updateforms</title>
+<link rel="stylesheet" type="text/css" href="{% static '/css/shop_home.css' %}">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+{% endblock %}
+
+{% block shop-content %}
+<!--These are nothing but random typings -->
+<h1>Hello World</h1>
+<!-- This table shows values going in a row -->
+<div class="container-fluid">
+	<table class="table table-striped table-bordered text-center">
+		<caption>Browser Table</caption>
+		<thead class="thead-dark">
+			<tr>
+				<th>Court 1</th>
+				<th>Court 2</th>
+				<th>Court 3</th>
+				<th>Court 4</th>
+				<th>Court 5</th>
+				<th>Court 6</th>
+				<th>Court 7</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for ea in obj %}
+				{% if forloop.counter0 == 0 %}
+				<tr>
+					<td><div>{{ea.id}}</div><div>{{ea.name}}</div><div><a href="{% url 'updateOrder' ea.id %}">Update</a></div></td>
+				{% elif forloop.counter0|modulo:7 != 0 %}
+					<td><div>{{ea.id}}</div><div>{{ea.name}}</div><div><a href="{% url 'updateOrder' ea.id %}">Update</a></div></td>
+				{% else %}
+				</tr>
+				<tr>
+					<td><div>{{ea.id}}</div><div>{{ea.name}}</div><div><a href="{% url 'updateOrder' ea.id %}">Update</a></div></td>
+				{% endif %}
+			{% endfor %}
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+{% endblock %}

@@ -1,0 +1,134 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+.container {
+	background-color: yellow;
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+
+.box {
+	width:50%;
+	color:white;
+	box-sizing: border-box;
+	border:10px solid black;
+	border-bottom:0;
+	padding:5px;
+	margin: 0px;
+	text-align:center;
+}
+
+.red-box {
+	background-color: red;
+}
+
+.blue-box {
+	background-color: blue;
+}
+
+.yellow-box {
+	background-color: yellow;
+	color:black;
+}
+
+.orange-box {
+	background-color: orange;
+	border-bottom: 10px solid black;
+}
+
+.another-container{
+/*	margin-top:0px;
+	background-color:blue;
+	height:10px;*/
+}
+.flex-container {
+	/*box-sizing:border-box;*/
+	background-color: yellow;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	margin-top:10px;
+	padding-top: 12px;
+	border-top:12px solid black;
+	padding-bottom: 12px;
+	border-bottom: 12px solid black;
+}
+.box-1 {
+	width:50%;
+	color:white;
+	box-sizing: border-box;
+	border:10px solid black;
+	border-right:0;
+	padding:5px;
+	margin: 0px;
+	text-align:center;
+}
+.red-box-1 {
+	background-color: red;
+	/*margin-left:10px;*/
+}
+.yellow-box-1 {
+	background-color: yellow;
+	color:black;
+}
+.orange-box-1 {
+	background-color: orange;
+	/*border-right:10px solid black;*/
+	/*margin-right:10px;*/
+}
+.grey-box-1 {
+	background-color: white;
+	color:black;
+}
+.grey-box-3 {
+	background-color: white;
+	color:black;
+	border-right:10px solid black;
+}
+.flex-container-2 {
+	/*box-sizing:border-box;*/
+	background-color: yellow;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	margin-top:10px;
+	padding-top: 12px;
+	border-top:12px solid black;
+	padding-bottom: 12px;
+	border-bottom: 12px solid black;
+	flex-wrap:wrap;
+}
+.box-2 {
+	width:14%;
+	color:white;
+	box-sizing: border-box;
+	border:10px solid black;
+	border-right:0;
+	padding:5px;
+	margin: 0px;
+	text-align:center;
+}
+
+.yellow-box-1.box-2 {
+	color:black;
+}
+.grey-box-1.box-2 {
+	color:black;
+}
+.grey-box-3.box-2 {
+	color:black;
+	border-right:10px solid black;
+}
+.flex-container-2 {
+	justify-content: center;
+}
+/* I really want to clamp them, but I don't really know how. */
+
+/* I'm so proud of myself. */
