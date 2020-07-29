@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
-from .models import Log
-from .forms import LogForm
+from .models import Log, LogPlayer
+from .forms import LogForm, LogPlayerForm
 
 def updateform_home(request):
 	obj = Log.objects.all()
@@ -84,10 +84,22 @@ def updateOrder(request, pk):
 	return render(request, 'updateform/updateforms_create.html', context)
 
 def browser(request):
-	obj = Log.objects.all()
-	firstname = Log.objects.first()
-	
-	context = {
-	"obj": obj, "first": firstname
-	}
+	obj = LogPlayer.objects.all()
+	context = {"obj": obj}
 	return render(request, "updateform/updateforms_browser.html", context)
+
+def browserUpdate(request, pk):
+	log = LogPlayer.objects.get(id=pk)
+	form = LogPlayerForm(instance=log)
+
+	if request.method == "POST":
+		form = LogPlayerForm(request.POST, instance=log)
+		if form.is_valid():
+			form.save()
+			#return redirect('/updateform')
+			# for now return to browser HTML
+			return redirect('/browser')
+
+
+	context = {'form':form}
+	return render(request, 'updateform/updateforms_browser_create.html', context)

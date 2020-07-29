@@ -3,7 +3,7 @@
 {% load modulo %}
 {% block shop-css %}
 <title>Browser_in_updateforms</title>
-<link rel="stylesheet" type="text/css" href="{% static '/css/shop_home.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static '/css/updateforms_css_browser.css' %}">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 {% endblock %}
 
@@ -11,7 +11,7 @@
 <!--These are nothing but random typings -->
 <h1>Hello World</h1>
 <!-- This table shows values going in a row -->
-<div class="container-fluid">
+<div class="container-fluid" id="container-fluid">
 	<table class="table table-striped table-bordered text-center">
 		<caption>Browser Table</caption>
 		<thead class="thead-dark">
@@ -29,13 +29,13 @@
 			{% for ea in obj %}
 				{% if forloop.counter0 == 0 %}
 				<tr>
-					<td><div>{{ea.id}}</div><div>{{ea.name}}</div><div><a href="{% url 'updateOrder' ea.id %}">Update</a></div></td>
+					<td><div>{{ea.id}}</div><div>{{ea.name}}</div><br><div>{{ea.player_1}}</div><div>{{ea.player_2}}</div><br><div>{{ea.guest_1}}</div><div>{{ea.guest_2}}</div><div><br><a href="{% url 'browserUpdate' ea.id %}">Update</a></div></td>
 				{% elif forloop.counter0|modulo:7 != 0 %}
-					<td><div>{{ea.id}}</div><div>{{ea.name}}</div><div><a href="{% url 'updateOrder' ea.id %}">Update</a></div></td>
+					<td><div>{{ea.id}}</div><div>{{ea.name}}</div><br><div>{{ea.player_1}}</div><div>{{ea.player_2}}</div><br><div>{{ea.guest_1}}</div><div>{{ea.guest_2}}</div><div><br><a href="{% url 'browserUpdate' ea.id %}">Update</a></div></td>
 				{% else %}
 				</tr>
 				<tr>
-					<td><div>{{ea.id}}</div><div>{{ea.name}}</div><div><a href="{% url 'updateOrder' ea.id %}">Update</a></div></td>
+					<td><div>{{ea.id}}</div><div>{{ea.name}}</div><br><div>{{ea.player_1}}</div><div>{{ea.player_2}}</div><br><div>{{ea.guest_1}}</div><div>{{ea.guest_2}}</div><div><br><a href="{% url 'browserUpdate' ea.id %}">Update</a></div></td>
 				{% endif %}
 			{% endfor %}
 			</tr>

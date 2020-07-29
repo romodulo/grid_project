@@ -1,0 +1,21 @@
+{% extends 'updateform/updateforms_main.html' %}
+{% load static %}
+{% load index %}
+{% block shop-css %}
+<title>Browser Create</title>
+<link rel="stylesheet" type="text/css" href="{% static '/css/shop_home.css' %}">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+{% endblock %}
+
+{% block shop-content %}
+
+<h1>Create Order</h1>
+
+<form action="" method="POST">
+	{% csrf_token %}
+	<table>{{form}}</table>
+	<input type="submit" name="Submit">
+</form>
+
+
+{% endblock %}
