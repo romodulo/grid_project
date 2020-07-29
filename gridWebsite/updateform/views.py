@@ -98,7 +98,7 @@ def browserUpdate(request, pk):
 			form.save()
 			#return redirect('/updateform')
 			# for now return to browser HTML
-			return redirect('/browser')
+			return redirect('/')
 
 
 	context = {'form':form}

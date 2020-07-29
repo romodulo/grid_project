@@ -2,6 +2,7 @@
 	padding:0;
 	margin:0;
 }
+
 body {
 	display:flex;
 	padding:0;
@@ -21,22 +22,42 @@ body {
 }
 
 .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+	display:flex;
+	flex-direction: column;
+	align-items:center;
 	padding-right:0;
 	padding-left: 0;
 	margin-right:0;
 	margin-left: 0;
+	width: min(100%, 960px);
 }
 
 #my_table {
+	font-size:0.8rem;
 }
 
 #td-now {
     border: 1px solid black !important;
 }
 
-h1 {
-	/*color:red !important;*/
+#my_table tr td {
+	width:min(14%, 116px);
 }
+
+h1 {
+	/*text-align: center;*/
+}
+
+/*@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .my-container {
+    	width: min(100%, 960px);
+
+        overflow-x: hidden !important;
+    }
+}*/
 
 /* 558 px width */
 /* I want width of my table to be 100% */

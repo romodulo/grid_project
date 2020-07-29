@@ -8,8 +8,8 @@ class Log(models.Model):
 
 class LogPlayer(models.Model):
 	name = models.CharField(max_length=200)
-	player_1 = models.CharField(max_length=200, blank = False, null=True)
-	player_2 = models.CharField(max_length=200, blank = False, null=True)
+	player_1 = models.CharField(max_length=200, blank = True, null=True)
+	player_2 = models.CharField(max_length=200, blank = True, null=True)
 	guest_1 = models.CharField(max_length=200, blank = True, null=False)
 	guest_2 = models.CharField(max_length=200, blank = True, null=False)
 	guest_3 = models.CharField(max_length=200, blank = True, null=False)
