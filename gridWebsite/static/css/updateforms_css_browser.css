@@ -1,3 +1,42 @@
-#container-fluid {
-	
+* {
+	padding:0;
+	margin:0;
 }
+body {
+	display:flex;
+	padding:0;
+	margin:0;
+	justify-content: center;
+}
+
+.my-container {
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	border-collapse: collapse;
+	width: min(100%, 960px);
+}
+
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+	padding-right:0;
+	padding-left: 0;
+	margin-right:0;
+	margin-left: 0;
+}
+
+#my_table {
+}
+
+#td-now {
+    border: 1px solid black !important;
+}
+
+h1 {
+	/*color:red !important;*/
+}
+
+/* 558 px width */
+/* I want width of my table to be 100% */
