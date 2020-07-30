@@ -2,6 +2,9 @@ from django.shortcuts import render, redirect
 from .models import Log, LogPlayer
 from .forms import LogForm, LogPlayerForm
 
+def simple_blog(request):
+	context = {}
+	return render(request, "updateform/simple_blog.html", context)
 def updateform_home(request):
 	obj = Log.objects.all()
 	t0600 = Log.objects.filter(pk__in=[1,2,3,4,5,6,7])
