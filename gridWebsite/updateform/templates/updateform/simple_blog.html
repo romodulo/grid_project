@@ -9,23 +9,33 @@
 
 {% block shop-content %}
 <!-- Start of blog-div -->
-<div class="container-fluid blog-div">
+<div class="container">
 	<div class="row justify-content-center">
-		<div class="col article">
-			<h1 class="display-4">Hello</h1>
+		<div class="col-xl-6 article mt-3">
+			<div class="bg-white shadow article1 p-5">
+				<div class="mb-2">
+					Article
+				</div>
+				<div class="bg-primary shadow text-center text-white lead helloworld">
+					<a class="text-white aclasswide" href="#">Hello World</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-6 article mt-3">
+			<h1 class="display-4">Hello,</h1>
 			<!-- empty paragraph -->
 			<div>
 				<blockquote class="blockquote">
-					<p>Test Text here</p>
-					<footer class="mb-5 blockquote-footer">
+					<!-- <p>Test Text here</p> -->
+					<footer class="text-right mb-5 blockquote-footer">
 						by Romel,
 						<cite>Self-Published Piece</cite>
 					</footer>
 				</blockquote>
-			<p class="lead">Another test text here </p>
+			<!-- <p class="lead">Another test text here </p> -->
 			</div> <!-- end of empty paragraph -->
 			<!-- first paragraph -->
-			<p class="text-justify p-5 mb-5 shadow bg-white"> 
+			<p class="lead text-justify p-5 mb-5 shadow bg-white"> 
 				This article explores Python modules and Python packages, two mechanisms that facilitate modular programming. 
 
 				Modular programming refers to the process of breaking a large, unwieldy programming task into separate, smaller, more manageable subtasks or modules. Individual modules can then be cobbled together like building blocks to create a larger application.
@@ -46,7 +56,7 @@
 			<p>another paragraph</p>
 			<!-- This table -->
 			<div class="shadow p-2 bg-white mb-5">
-				<table class="table">
+				<table class="table table-hover">
 				  <thead class="thead-dark">
 				    <tr>
 				      <th scope="col">#</th>
@@ -76,9 +86,9 @@
 				    </tr>
 				  </tbody>
 				</table>
-			</div>
+			</div> <!-- End of this table -->
 			<p>This table</p>
-		</div> <!-- End of this table -->
+		</div>
 	</div>
 </div> <!-- End of blog-div -->
 
