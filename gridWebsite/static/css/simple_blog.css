@@ -1,3 +1,17 @@
-.blog-div {
-	color:red;
+body {
+	background-color: #f4f4f4;
+	font-size: 14px
 }
+.article {
+	max-width:506px;
+}
+
+::selection:window-inactive {
+    background: rgba(80,78,78,0.3);
+}
+::selection {
+    background: rgb(183 195 0);
+    text-shadow: none;
+    color: #fff;
+}
+
