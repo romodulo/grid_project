@@ -1,9 +1,14 @@
+html {
+	font-size:62.5%;
+}
 body {
 	background-color: #f4f4f4;
-	font-size: 14px;
+	/*background-color: var(--yellow);*/
+	font-size:1.8em;
+	line-height: 1.6;
 }
 .article {
-	max-width:506px;
+	max-width:1036px; /* was 550 */
 }
 ::selection:window-inactive {
     background: rgba(80,78,78,0.3);
@@ -12,5 +17,10 @@ body {
     background: rgb(183 195 0);
     text-shadow: none;
     color: #fff;
+}
+
+@media (min-width: 1200px) {
+	.simpleparagraph {
+		padding-top: 1rem;
 }
 

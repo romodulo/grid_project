@@ -106,3 +106,7 @@ def browserUpdate(request, pk):
 
 	context = {'form':form}
 	return render(request, 'updateform/updateforms_browser_create.html', context)
+
+def calender(request):
+	context = {}
+	return render(request, 'updateform/calender.html', context)

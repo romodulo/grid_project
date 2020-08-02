@@ -7,6 +7,6 @@ urlpatterns = [
 	path('updateform/update/<str:pk>', updateOrder, name="updateOrder"),
 	path('browser/', browser),
 	path('browser/update/<str:pk>', browserUpdate, name="browserUpdate"),
-	path('simpleblog/', simple_blog, name="simpleblog")
-
+	path('simpleblog/', simple_blog, name="simpleblog"),
+	path('calender', calender, name="calender")
 ]
